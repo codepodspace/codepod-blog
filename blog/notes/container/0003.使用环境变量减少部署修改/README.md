@@ -42,9 +42,11 @@ REDIS_SERVER_PORT=6379
 REDIS_DB_0=0
 REDIS_DB_1=1
 
-...
+#...
 
 ```
+
+## 方式一：环境变量+${变量}的方法
 
 ### docker-compose.yaml
 
@@ -125,7 +127,41 @@ spring.redis.database=${redis_db_0}
 
 ```
 
+## 方式二：extra_hosts 服务映射
+
+### docker-compose.yaml
+
+```yaml 
+
+version: "1.0"
+services:
+  testpod:
+    image: test:prod
+    container_name: test-server
+    volumes:
+      - ./ui/logs/:/logs
+    ports:
+      - 8080:8080
+    restart: always
+    extra_hosts:
+      - mysql:${MYSQL_SERVER_IP}
+
+```
+
+### springboot 配置文件
+
+```ini
+
+spring.datasource.dynamic.datasource.default.url=jdbc:mysql://mysql:3306/hello_world?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+
+#省略...
+
+```
+
+这种方式缺点比较明显，只能配置服务器名称，其他的配置无法修改。
+
 
 ## 部署发布
 
 后续部署只需要修改 .env 文件，替换环境的实际的环境变量配置，而不需要修改其他很多的配置，非常方便。
+
