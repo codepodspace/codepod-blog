@@ -5,3 +5,4 @@
     - [使用环境变量减少部署修改](blog/notes/container/0003.使用环境变量减少部署修改/)
     - [常用服务Compose汇编](blog/notes/container/0004.常用服务Compose汇编/)
     - [镜像源收集](blog/notes/container/0005.镜像源收集/)
+    - [常用命令](blog/notes/container/0006.常用命令/)
