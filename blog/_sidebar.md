@@ -2,7 +2,7 @@
     - [第01篇-业务流程的复杂场景介绍及分析](blog/business_observable/001/)
     - [第02篇-工作流BPMN2.0来表达复杂的业务流程](blog/business_observable/002/)
     - [第03篇-基于工作流的自动化作业方案设计](blog/business_observable/003/)
-- [技术随记](blog/notes/)
+- [【技术随记】](blog/notes/)
 	- [📝docsify](blog/notes/docsify/)
 	- [📖CodePod](blog/notes/codepod/)
 	- [🛠️GraalVM](blog/notes/graalvm/)
@@ -10,3 +10,4 @@
 	- [💻Linux](blog/notes/linux/)
 	- [🌥 分布式技术](blog/notes/distributed/)
 		- [🌐 网关技术](blog/notes/distributed/gateway/)
+- [【学习天地】](blog/study/)
