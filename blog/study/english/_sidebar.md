@@ -3,3 +3,4 @@
     - [第001篇](blog/study/english/story100/001.md)
     - [第002篇](blog/study/english/story100/002.md)
     - [第003篇](blog/study/english/story100/003.md)
+    - [第004篇](blog/study/english/story100/004.md)
