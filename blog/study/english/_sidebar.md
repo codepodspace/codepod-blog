@@ -6,3 +6,6 @@
     - [第004篇](blog/study/english/story100/004.md)
     - [第005篇](blog/study/english/story100/005.md)
     - [第006篇](blog/study/english/story100/006.md)
+    - [第007篇](blog/study/english/story100/007.md)
+    - [第008篇](blog/study/english/story100/008.md)
+    - [第009篇](blog/study/english/story100/009.md)
